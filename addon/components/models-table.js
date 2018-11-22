@@ -1688,7 +1688,7 @@ export default Component.extend({
 
   didInsertElement() {
     Ember.run.scheduleOnce('afterRender', this, () => {
-      $.material.init();
+      //$.material.init();
     });
   }
 
